@@ -1,0 +1,10 @@
+<p>test works!</p>
+
+<div class="container">
+    <ngx-monaco-editor 
+        [options]="editorOptions" 
+        [(ngModel)]="code"
+        class="editor-fill"
+        (init)="onEditorInit($event)">
+    </ngx-monaco-editor>
+</div>
