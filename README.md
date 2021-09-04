@@ -7,3 +7,7 @@ Integrates the Monaco Editor (editor used in Visual Studio Code) successfully in
 The `ngx-monaco-editor` library was used to to integrate the editor into an Angular Component.
 
 - [Monaco Editor](https://github.com/materiahq/ngx-monaco-editor)
+
+Some of the main references used to load a custom library was the an official example from Microsoft.
+
+- [Example](https://microsoft.github.io/monaco-editor/playground.html#extending-language-services-configure-javascript-defaults)
