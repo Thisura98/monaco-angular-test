@@ -15,6 +15,10 @@ export class TestComponent implements OnInit {
     theme: 'vs-dark', 
     language: 'javascript',
     fixedOverflowWidgets: true,
+    suggest: {
+      // Important to hide the "Document Icon" that appears on suggestions
+      showFiles: false
+    }
   };
   code: string = '';
   originalCode: string = 'function x() { // TODO }';
