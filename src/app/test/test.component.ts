@@ -18,7 +18,8 @@ export class TestComponent implements OnInit {
     suggest: {
       // Important to hide the "Document Icon" that appears on suggestions
       showFiles: false
-    }
+    },
+    fontSize: 14
   };
   code: string = '';
   originalCode: string = 'function x() { // TODO }';
