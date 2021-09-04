@@ -4,6 +4,28 @@ Integrates the Monaco Editor (editor used in Visual Studio Code) successfully in
 
 <img src="https://raw.githubusercontent.com/Thisura98/monaco-angular-test/master/res/Screenshot1.png">
 
+## The custom library loaded
+
+```js
+/**
+ * The System
+ */
+ const System = {
+    /**
+     * The Main Game
+     */
+    Game: {
+        /**
+         * Move to another level
+         * @param {string} level 
+         */
+        moveToLevel: function(level){
+
+        }
+    }
+}
+```
+
 ## Guide
 
 The `ngx-monaco-editor` library was used to to integrate the editor into an Angular Component.
