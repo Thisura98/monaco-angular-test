@@ -10,7 +10,7 @@ Integrates the Monaco Editor (editor used in Visual Studio Code) successfully in
 /**
  * The System
  */
- const System = {
+ const Edge = {
     /**
      * The Main Game
      */
